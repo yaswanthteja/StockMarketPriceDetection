@@ -1,0 +1,16 @@
+{% extends 'users/userbase.html'%}
+{%block contents%}
+
+ <section id="intro">
+
+    <div class="intro-text">
+        <div class="container">
+           <p><h4 align="center">Prediction Results</h4></p>
+            <pre>
+                Error {{results.error}}
+                RMSE {{results.rmse}}
+            </pre>
+        </div>
+    </div>
+  </section>
+{%endblock%}

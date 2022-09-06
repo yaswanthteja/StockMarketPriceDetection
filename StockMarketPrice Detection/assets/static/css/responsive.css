@@ -1,0 +1,111 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	h2 {
+		font-size: 50px;
+	}
+    
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (min-width:769px) and (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+	.main_menu_bg .navbar-nav>li>a {
+		font-size: 14px;
+	}
+
+    
+    
+   
+
+
+}
+/* Landscape phones and portrait tablets */
+@media (min-width:480px) and (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+	.main_menu_bg .navbar-nav>li>a {
+		font-size: 14px;
+	}
+	.single_footer_right{
+		text-align:left;
+	}
+	.single_home_right {
+		 margin-left:0px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-top: 11px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #ff5e3a;
+		background-color: transparent;
+	}
+	
+    
+   
+   
+}
+
+
+
+/* Landscape phones and smaller */
+@media (min-width:320px) and (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+	.single_footer_right{
+		text-align:left;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-top: 11px;
+	}
+
+
+}
+
+
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 60.5%;
+    }
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-top: 11px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

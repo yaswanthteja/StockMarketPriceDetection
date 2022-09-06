@@ -1,0 +1,60 @@
+@font-face {
+	font-family:'open_sansbold';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-bold.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sansbold_italic';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-bolditalic.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sansextrabold';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-extrabold.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sansextrabold_italic';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-extrabolditalic.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sansitalic';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-italic.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sanslight';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-light.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sanslight_italic';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-lightitalic.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sansregular';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-regular.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sanssemibold';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-semibold.woff2') format('woff2');
+}
+@font-face {
+	font-family:'open_sanssemibold_italic';
+	font-weight:normal;
+	font-style:normal;
+	src:url('opensans-semibolditalic.woff2') format('woff2');
+}
