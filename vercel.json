@@ -3,11 +3,22 @@
         "src": "InternationalStock/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.7" }
-    }],
+    },
+    {
+        "src": "build_files.sh",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "staticfiles_build" }
+    }
+],
     "routes": [
         {
             "src": "/(.*)",
             "dest": "InternationalStock/wsgi.py"
         }
+    ,
+    {
+        "src": "/staticfiles/(.*)",
+        "dest": "InternationalStock/wsgi.py"
+    }
     ]
 }
