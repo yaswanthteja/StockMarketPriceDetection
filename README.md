@@ -16,7 +16,7 @@ Here we use Django to create a web application.
 
 
 
-### 📦 Pre-requirements
+#📦 Pre-requirements
 
 To run this project, you will need to add the following 
 
@@ -30,15 +30,15 @@ To run this project, you will need to add the following
 
 
 
-### 🛠️ Installation Steps
+# 🛠️ Installation Steps
 
 1. First, install Python if you already have Python in your system hit  this `python --version` in your terminal or cmd to know the Python version (try to install Python 3.7.2).
 
-   -  [python](https://www.python.org/downloads/)  (Here you can find latest releases of python)
+   -  [python](https://www.python.org/downloads/)  (Here you can find the latest releases of python)
    - [python 3.7.2 version](https://www.python.org/downloads/release/python-372/) (which this project was build)
 
 
-#### 🐍 Using Anaconda (suggested Process)
+## 🐍 Using Anaconda (suggested Process)
 
 - First, install the latest [python](https://www.python.org/downloads/) version.
 - Next install [anaconda](https://www.anaconda.com/download/success)
@@ -63,11 +63,12 @@ conda activate venv
 
 2. next clone or download this project from the [github repo](https://github.com/yaswanthteja/Stock-Index-Prediction-Using-Ann), Here i have given all the files that are required for this project, And I also mentioned some references and a few documents for  make it easy.
 
-3.  If you want just the project then  [click here](https://github.com/yaswanthteja/Stock-Index-Prediction-Using-Ann/tree/master/InternationalStock) (or)check out the code folder where  you find the internationalstock folder  you will find all the project requirements over there.
+3.  If you want just the project then  [click here](https://github.com/yaswanthteja/Stock-Index-Prediction-Using-Ann/tree/master/InternationalStock) (or)check out the code folder where  you find the internationalstock folder  you will find all the project requirements over there, download or clone it and follow the steps. 
 
-<br>
+<be>
 
-###  📂 File Structure of this project
+
+#  📂 File Structure of this project
 
 ```bash
 internationalstock
@@ -86,12 +87,13 @@ internationalstock
 now we need to install a few dependencies for our project which you will find in requirements.txt.
 
 5. now open your terminal and navigate to your project location by using the cd command
- for example:  your project is in the E folder/downloads/internationalstock, now open your cmd  or terminal type cd E:\downloads\internationalstock,  and hit enter
+  - for example:  your project is in the E folder/downloads/internationalstock, now open your cmd  or terminal type cd E:\downloads\internationalstock,  and hit enter
   -  simply copy the project location and open your terminal type cd and paste the location over there
   -  now in our project, you can find the requirements.txt file 
 <be>
 
-### ⚒️ installing the modules 
+
+# ⚒️ installing the modules 
 
 6. now type the following command in the terminal
 #### using pip
@@ -113,8 +115,12 @@ example: pip install django==2.2
  matplotlib==3.1.3
 numpy==1.17.2
 ```
-## ⚙️ Usage
-### 🖲️ Run server
+
+
+# ⚙️ Usage
+
+## 🖲️ Run server
+
 
 7. Type the following command in your terminal to run the Django server in your local host 
 
@@ -134,14 +140,16 @@ py manage.py runserver
    ```
 
 
-### ®️ Registration
+
+# ®️ Registration
 
 - After that you can see a web application on your browser.
 - In this, you need to create an account, so go  and click on registration which you can find  top of the web application, and try to fill in all details that are required.
 - now click on  the register  button
 - Now you need to wait until the admin gives you the access.
 
-### 🅰️ Admin
+
+# 🅰️ Admin
 
 -  In the admin panel you can access admin tasks, To access  these you need to go to the admin page, you can find that on the web application page.
 - Then login with the admin login details.
@@ -154,14 +162,15 @@ password: admin
 - On the admin page you can find users then you can give access to the users  from over there.
 
 
-- if you are using Annaconda process you need to deactivate the virtual environment
+- if you are using Anaconda process you need to deactivate the virtual environment
 - if you want to deactivate the virtual environment type the following command in your terminal.
   
 ```
 conda deactivate
 ```
 
-### 💻 Demo
+
+# 💻 Demo
 
 [![stock](https://img.youtube.com/vi/JUUguNmhCKQ/0.jpg)](https://www.youtube.com/watch?v=JUUguNmhCKQ)
 
